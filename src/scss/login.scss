@@ -1,6 +1,16 @@
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
+    .login{
+        .login-with-friend{
+            .btn{
+                background: #000d83;
+                border-radius: 15px;
+                padding: 10px 20px;
+                color: #ff4400;
+                cursor: pointer;
+            }
+        }
+    } 
 }

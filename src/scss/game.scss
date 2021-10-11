@@ -1,0 +1,53 @@
+.main {
+  background: #131419;
+  width: 100vw;
+  height: 100vh;
+  padding: 15px;
+  .container {
+    width: 100%;
+    height: 100%;
+    background: #131419;
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+      5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+    .item{
+        background: rgb(241, 241, 241);
+        height: 100%;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    .item-bottom-bordered-red{
+        border-bottom: 20px solid #ee0800;
+    }
+    .item-bottom-bordered-yellow{
+        border-bottom: 20px solid #eeea00;
+    }
+    .item-left-bordered-green{
+        border-left: 20px solid #00ee14;
+    }
+    .item-left-bordered-blue{
+        border-left: 20px solid #000283;
+    }
+    .item-right-bordered-orange{
+        border-right: 20px solid #f8aa00;
+    }
+    .item-right-bordered-pink{
+        border-right: 20px solid #bd1fdd;
+    }
+    .item-top-bordered-liteblue{
+        border-top: 20px solid #6b60ff;
+    }
+    .item-top-bordered-gray{
+        border-top: 20px solid #46005c;
+    }
+    .itemboard{
+        grid-column-start: 2;
+        grid-column-end: 11;
+        grid-row-start: 2;
+        grid-row-end: 11;
+        border: 1px solid #fff;
+    }
+  }
+}
