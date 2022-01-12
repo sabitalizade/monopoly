@@ -8,6 +8,8 @@ const Login = ({setLogin}) => {
                     <div className="btn" onClick={()=>setLogin(true)}>
                         Join With friend
                     </div>
+
+                    <div className="btn">Push Notification</div>
                 </div>
                 <div className="login-random"></div>
             </div>
